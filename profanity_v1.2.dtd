@@ -1,0 +1,102 @@
+<!ENTITY name "profanity">
+
+
+<!-- #PCDATA makes a extent tag-->
+<!ELEMENT EMPHASIS ( #PCDATA ) >
+<!ATTLIST EMPHASIS comment CDATA "default value" >
+
+<!-- #PCDATA makes a extent tag-->
+<!ELEMENT EMPHASIZED ( #PCDATA ) >
+<!ATTLIST EMPHASIZED comment CDATA "default value" >
+
+<!-- no #PCDATA makes a link tag-->
+<!ELEMENT EMPHASIZE EMPTY>
+<!-- this will have default arguments "from" and "to"-->
+<!ATTLIST EMPHASIZE relationship ( emphasizer | emphasized ) #IMPLIED >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT REACTIONARY ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST REACTIONARY type ( dir | undir ) >
+<!ATTLIST REACTIONARY replacement ( heck | darn | screw | crap ) >
+<!ATTLIST REACTIONARY comment CDATA "default value" >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT NON-SWEAR ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST NON-SWEAR substitution CDATA "default value" >
+<!ATTLIST NON-SWEAR comment CDATA "default value" >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT PHRASE ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST PHRASE comment CDATA "default value" >
+
+<!-- no #PCDATA makes a link tag-->
+<!ELEMENT CONTAIN EMPTY>
+<!ATTLIST CONTAIN arg0 IDREF prefix="contains" #REQUIRED>
+<!ATTLIST CONTAIN arg1 IDREF prefix="contained" #REQUIRED>
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT META ( #PCDATA ) >
+<!ATTLIST META comment CDATA "default value" >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_ASS ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_ASS meaning ( mean person | stupid person | butt | sexualized person | phrasal | other ) >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_ASSHOLE ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_ASSHOLE meaning ( mean person | anus | phrasal | other)
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_BITCH ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_BITCH meaning ( mean person | feminine man | complain | cool | a woman | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_DAMN ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_DAMN meaning ( condemn to hell | care | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_DICK ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_DICK meaning ( mean person | penis | messing around | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_DOUCHE ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_DOUCHE meaning ( jerk | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_FUCK ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_FUCK meaning ( mess with | make a situation worse | have sex | person | messing around | care | disturbing | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_PISS ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_PISS meaning ( pee | angry | phrasal |other)
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_PUSSY ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_PUSSY meaning ( wimp | vagina | phrasal |other)
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_SHIT ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_SHIT meaning ( poop | things/stuff | bad/poor | lies | something unwanted | a coward | idiot | phrasal |other )
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT MEANINGFUL_HELL ( #PCDATA ) >
+<!-- fixed value set with a default value-->
+<!ATTLIST MEANINGFUL_HELL meaning ( quickly | phrasal |other )
+<!ATTLIST MEANINGFUL_HELL comment CDATA "default value" >
+
+<!-- #PCDATA makes an extent tag-->
+<!ELEMENT OTHER ( #PCDATA ) >
+<!ATTLIST OTHER comment CDATA "default value" >
