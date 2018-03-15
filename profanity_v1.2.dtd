@@ -50,47 +50,47 @@
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_BITCH ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_BITCH meaning ( mean person | feminine man | complain | cool | a woman|unpleasant difficulty | other )
+<!ATTLIST MEANINGFUL_BITCH meaning ( mean person | feminine man | complain | cool | a woman | unpleasant difficulty | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_DAMN ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_DAMN meaning ( wish harm upon |something of little value|other )
+<!ATTLIST MEANINGFUL_DAMN meaning ( wish harm upon | something of little value | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_DICK ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_DICK meaning ( mean person | penis | messing around  |other )
+<!ATTLIST MEANINGFUL_DICK meaning ( mean person | penis | messing around | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_DOUCHE ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_DOUCHE meaning ( jerk |other )
+<!ATTLIST MEANINGFUL_DOUCHE meaning ( jerk | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_FUCK ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_FUCK meaning ( mess with | ruin or damage | have sex | person | messing around | something of little value | disturbing |other )
+<!ATTLIST MEANINGFUL_FUCK meaning ( mess with | ruin or damage | have sex | person | messing around | something of little value | disturbing | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_PISS ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_PISS meaning ( pee | angry | other)
+<!ATTLIST MEANINGFUL_PISS meaning ( pee | angry | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_PUSSY ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_PUSSY meaning ( wimp | vagina |other)
+<!ATTLIST MEANINGFUL_PUSSY meaning ( wimp | vagina | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_SHIT ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_SHIT meaning ( poop | things/stuff | bad/poor | lies | something of little value| idiot |other )
+<!ATTLIST MEANINGFUL_SHIT meaning ( poop | things/stuff | bad/poor | lies | something of little value | idiot | other )
 
 <!-- #PCDATA makes an extent tag-->
 <!ELEMENT MEANINGFUL_HELL ( #PCDATA ) >
 <!-- fixed value set with a default value-->
-<!ATTLIST MEANINGFUL_HELL meaning ( a place of suffering |other )
+<!ATTLIST MEANINGFUL_HELL meaning ( a place of suffering | other )
 <!ATTLIST MEANINGFUL_HELL comment CDATA "default value" >
 
 <!-- #PCDATA makes an extent tag-->
